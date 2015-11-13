@@ -27,11 +27,11 @@ schema_authors = {
 
 for i in data["books"]:
  	validate(i,schema_books)
-print("books validated")
+print("books schema validated")
 
 for i in data["authors"]:
 	validate(i,schema_authors)
-print("authors validated")
+print("authors schema validated")
 
 authorMap = {} 				
 for i in data["authors"]:
