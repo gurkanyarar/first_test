@@ -39,6 +39,7 @@ for i in data["authors"]:
 print("authors added to dict")
 
 print("hatali veri------------------------------------>    id     ---------------------->    name")
+print("deneme")
 for i in data["books"]:
 	if(i["author"] not in authorMap):
 		print(i)
